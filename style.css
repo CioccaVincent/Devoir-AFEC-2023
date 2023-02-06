@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: rgb(236, 232, 232);
+}
+
+/*::::::::::::::::::::::::::TITRE::::::*/
+h1 {
+    padding: 2em 0em 0em 5.5em;
+}
+
+/*::::::::::::::::::::::::::CARD::::::*/
+main {
+    padding: 3.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    width: 17em;
+    height: 15em;
+    padding: 0.5em;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+}
+
+figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 55%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+figure img:nth-child(4),
+figure img:nth-child(6) {
+    height: 10%;
+}
+
+h1, p {
+    font-family: 'raleway', sans-serif;
+}
+
+figcaption p:nth-child(1) {
+    font-size: 1.5em;
+}
+
+figcaption p:nth-child(2) {
+    margin: -10px 0px 0px 0px;
+}
+
+.fa-star {
+    color: #0065FC;
+}
+
+.stargrey {
+    color: grey;
+}
